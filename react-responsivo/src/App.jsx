@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Saludo from './components/Saludo'
 import Sumador from './components/Sumador'
+import ContadorConHistorial from './components/Contador'
 import './App.css'
 
 function App() {
@@ -8,6 +8,8 @@ function App() {
     <>
     <h1>Suma dos numeros</h1>
     <Sumador />
+    <ContadorConHistorial />
+
     </>
   )
 }

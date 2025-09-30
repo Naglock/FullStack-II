@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { sumar } from './Sumar'
+import { Sumar } from './Sumar'
 function Sumador() {
     const [num1, setNum1] = useState('');
     const [num2, setNum2] = useState('');
 
     // Convertimos a número para evitar concatenación
-    const resultado = sumar(Number(num1), Number(num2));
-    return (
+    const resultado = Sumar(Number(num1), Number(num2));
+    return (    
         <div>
             <input
                 type="number"
