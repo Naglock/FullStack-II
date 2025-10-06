@@ -14,16 +14,6 @@ function App() {
 
   return (
     <>
-      <Controls
-        onImageChange={setImage}
-        onTopTextChange={setTopText}
-        onBottomTextChange={setBottomText}
-      />
-      <MemeCanvas
-        image={image}
-        topText={topText}
-        bottomText={bottomText}
-      />
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
